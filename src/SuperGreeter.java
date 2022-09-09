@@ -12,10 +12,9 @@ public class SuperGreeter {
         String navn = scanner.nextLine();
         System.out.println("Hej "+ navn);
     }
-    public void askAboutAge(){
-        System.out.println("Hvad er din alder?");
-        int age = scanner.nextInt();
-        System.out.println("du er "+age);
+    public void stupidMethod(){
+        System.out.println("det her er stupid?");
+
 
     }
 
@@ -23,7 +22,7 @@ public class SuperGreeter {
         SuperGreeter sg = new SuperGreeter();
         sg.start();
         sg.Greet();
-        sg.askAboutAge();
+        sg.stupidMethod();
     }
 
 }
