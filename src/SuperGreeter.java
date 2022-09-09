@@ -12,9 +12,8 @@ public class SuperGreeter {
         String navn = scanner.nextLine();
         System.out.println("Hej "+ navn);
     }
-    public void stupidMethod(){
-        System.out.println("det her er stupid?");
-
+    public void bigMistake(){
+        System.out.println("skrrrt skrrrt");
 
     }
 
@@ -22,7 +21,7 @@ public class SuperGreeter {
         SuperGreeter sg = new SuperGreeter();
         sg.start();
         sg.Greet();
-        sg.stupidMethod();
+        sg.bigMistake();
     }
 
 }
